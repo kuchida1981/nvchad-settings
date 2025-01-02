@@ -1,6 +1,27 @@
 require "nvchad.options"
 
--- add yours here!
+local opt = vim.opt
+local g = vim.g
 
--- local o = vim.o
--- o.cursorlineopt ='both' -- to enable cursorline!
+-- basics
+opt.wrap = false
+opt.cursorline = true
+opt.shell = "fish"
+opt.wildignore:remove("*/tmp/*")
+opt.background = "dark"
+opt.termguicolors = true
+
+-- history
+opt.history = 1000
+
+-- grep
+if vim.fn.executable("rg") then
+	opt.grepprg = "rg --vimgrep --no-heading"
+	opt.grepformat = "%f:%l:%c:%m,%f:%l:%m"
+else
+	opt.grepprg = "grep -rnHI"
+end
+
+-- python
+g.loaded_python3_provider = 1
+g.python3_host_prog = os.getenv("PYENV_ROOT") .. "/versions/neovim/bin/python"
