@@ -1,6 +1,10 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
+    python = { "black", "isort", "autopep8" },
+    go = { "gofmt", "goimports" },
+    sql = { "sqlfmt" },
+    fish = { "fish_indent" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
