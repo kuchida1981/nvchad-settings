@@ -15,7 +15,7 @@ opt.termguicolors = true
 opt.history = 1000
 
 -- grep
-if vim.fn.executable("rg") then
+if vim.fn.executable('rg') == 1 then
 	opt.grepprg = "rg --vimgrep --no-heading"
 	opt.grepformat = "%f:%l:%c:%m,%f:%l:%m"
 else
