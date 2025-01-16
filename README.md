@@ -1,3 +1,15 @@
+# nvchad-settings
+
+NvChadの自分用設定ファイルの管理リポジトリ。
+
+## 使い方
+
+```
+git clone git@github.com:kuchida1981/nvchad-settings.git $HOME/.config/nvim
+```
+
+---
+
 **This repo is supposed to used as config by NvChad users!**
 
 - The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
