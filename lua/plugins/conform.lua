@@ -1,3 +1,4 @@
+---@type NvPluginSpec[]
 return {
   {
     "stevearc/conform.nvim",
