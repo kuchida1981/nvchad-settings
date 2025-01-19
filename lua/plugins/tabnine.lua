@@ -1,3 +1,4 @@
+---@type NvPluginSpec[]
 return {
   {
     "codota/tabnine-nvim",
