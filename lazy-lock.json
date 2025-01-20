@@ -28,6 +28,7 @@
   "tabnine-nvim": { "branch": "master", "commit": "a7a81332ec7fb63ba9436ec7dbb680144db642db" },
   "telescope.nvim": { "branch": "master", "commit": "415af52339215926d705cccc08145f3782c4d132" },
   "ui": { "branch": "v3.0", "commit": "adcc97d7c7b97d3527a31338615751d2503fe0a4" },
+  "vim-python-pep8-indent": { "branch": "master", "commit": "60ba5e11a61618c0344e2db190210145083c91f8" },
   "volt": { "branch": "main", "commit": "f02b065caf0327bf4d443ff6d91cb0edd6948ddb" },
   "which-key.nvim": { "branch": "main", "commit": "1f8d414f61e0b05958c342df9b6a4c89ce268766" }
 }
