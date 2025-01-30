@@ -5,6 +5,7 @@ local options = {
     go = { "gofmt", "goimports" },
     sql = { "sqlfmt" },
     fish = { "fish_indent" },
+    terraform = { "terraform_fmt" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
