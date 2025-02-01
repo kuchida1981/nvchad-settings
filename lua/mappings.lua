@@ -8,3 +8,6 @@ nomap("i", "<C-h>")
 
 -- telescope-live-grep-args.nvim
 map("n", "<leader>fg", "<cmd>Telescope live_grep_args<CR>", { desc = "telescope live grep args" })
+
+-- telescope-frecenry.nvim
+map("n", "<leader>fr", "<cmd>Telescope frecency<CR>", { desc = "telescope frecency" })

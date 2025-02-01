@@ -26,6 +26,7 @@
   "plenary.nvim": { "branch": "master", "commit": "3707cdb1e43f5cea73afb6037e6494e7ce847a66" },
   "rainbow_csv": { "branch": "master", "commit": "3dbbfd7d17536aebfb80f571255548495574c32b" },
   "tabnine-nvim": { "branch": "master", "commit": "a7a81332ec7fb63ba9436ec7dbb680144db642db" },
+  "telescope-frecency.nvim": { "branch": "master", "commit": "0b1bbd6b7118cf9979934efef9d67b162f6d5ddf" },
   "telescope-live-grep-args.nvim": { "branch": "master", "commit": "8ad632f793fd437865f99af5684f78300dac93fb" },
   "telescope.nvim": { "branch": "master", "commit": "415af52339215926d705cccc08145f3782c4d132" },
   "ui": { "branch": "v3.0", "commit": "adcc97d7c7b97d3527a31338615751d2503fe0a4" },

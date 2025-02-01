@@ -7,6 +7,13 @@ return {
         "nvim-telescope/telescope-live-grep-args.nvim",
         version = "^1.0.0",
       },
+      {
+        "nvim-telescope/telescope-frecency.nvim",
+        version = "*",
+        config = function()
+          require("telescope").load_extension "frecency"
+        end
+      },
     },
     opts = function(_, conf)
       local lga_actions = require "telescope-live-grep-args.actions"
@@ -15,7 +22,7 @@ return {
         mappings = {
           i = {
             ["<C-k>"] = lga_actions.quote_prompt(),
-            ["<C-i>"] = lga_actions.quote_prompt({ postfix = " --iglob" }),
+            ["<C-i>"] = lga_actions.quote_prompt { postfix = " --iglob" },
           },
         },
       }
