@@ -15,7 +15,8 @@ opt.termguicolors = true
 opt.history = 1000
 
 -- grep
-opt.grepprg = "grep -rnHI"
+opt.grepprg = "rg --vimgrep --no-heading"
+opt.grepformat = "%f:%l:%c:%m,%f:%l:%m"
 
 -- python
 g.loaded_python3_provider = 1
