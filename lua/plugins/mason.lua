@@ -17,6 +17,8 @@ return {
       "sqlfmt",
 
       "prettier",
+      "graphql-language-service-cli",
+      "typescript-language-server",
     },
   },
 }
