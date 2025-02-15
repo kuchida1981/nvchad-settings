@@ -6,8 +6,11 @@ local options = {
     sql = { "sqlfmt" },
     fish = { "fish_indent" },
     terraform = { "terraform_fmt" },
+    json = { "jq" },
+    xml = { "xmllint" },
     -- css = { "prettier" },
     -- html = { "prettier" },
+    markdown = { "prettier" },
   },
 
   -- format_on_save = {
