@@ -11,6 +11,7 @@ local options = {
     -- css = { "prettier" },
     -- html = { "prettier" },
     markdown = { "prettier" },
+    graphql = { "prettier" },
   },
 
   -- format_on_save = {
