@@ -8,6 +8,7 @@ return {
       "black",
       "isort",
       "autopep8",
+      "ruff",
 
       -- golang
       "gopls",
