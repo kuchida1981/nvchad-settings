@@ -12,6 +12,7 @@ local options = {
     -- html = { "prettier" },
     markdown = { "prettier" },
     graphql = { "prettier" },
+    yaml = { "yamlfix" },
   },
 
   -- format_on_save = {

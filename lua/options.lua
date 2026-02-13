@@ -21,3 +21,5 @@ opt.grepformat = "%f:%l:%c:%m,%f:%l:%m"
 -- python
 g.loaded_python3_provider = 1
 g.python3_host_prog = os.getenv("PYENV_ROOT") .. "/versions/neovim/bin/python"
+
+vim.cmd('runtime! plugin/gzip.vim')

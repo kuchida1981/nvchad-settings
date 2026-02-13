@@ -20,6 +20,10 @@ return {
       "prettier",
       "graphql-language-service-cli",
       "typescript-language-server",
+
+      -- yaml
+      "yamlfix",
+      "yamlfmt",
     },
   },
 }
